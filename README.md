@@ -21,7 +21,7 @@ The CUMDR model is structured with three integral components:
 
 ## Motivation
 ![Motivation](fig/intro_00.png)
-Illustrative examples of existing problems: (a) Neglect of cross-modal uncertainty that stems from point representation strategy. (b) The limitation of discriminative models, i.e., only focuses on learning conditional probabilities.
+* Illustrative examples of existing problems: (a) Neglect of cross-modal uncertainty that stems from point representation strategy. (b) The limitation of discriminative models, i.e., only focuses on learning conditional probabilities.
 
 ## Results
 ![Result](fig/result.png)
