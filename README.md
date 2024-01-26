@@ -2,8 +2,6 @@
 ## Introduction
 This is the source code of "Cross-modal Uncertainty Modeling with Diffusion-based Refinement for Text-based Person Retrieval". 
 
-The supplementary material is available at [supp.pdf](https://github.com/randAnonymous/CUMDR/blob/main/supplementary/supp.pdf).
-
 ## Cross-modal Uncertainty Modeling with Diffusion-based Refinement for Text-based Person Retrieval
 The CUMDR model is structured with three integral components:
 
@@ -28,10 +26,24 @@ Illustrative examples of existing problems: (a) Neglect of cross-modal uncertain
 ## Results
 ![Result](fig/result.png)
 
+## Ablation Study on CUHK-PEDES
+![Result](fig/ablation.png)
 
+## Effect of Retrieval-augmented In-context Constructor
+To further explore the significance of our proposed Retrieval-augmented In-context Constructor (RIC), we conduct the corresponding ablation study on the RSTPReid dataset.
+![Result](fig/RIL.png)
+
+## More comparisons on CUHK-PEDES
+![Result](fig/CUHK_00.png)
+
+## More Visulaization of Distribution Representation
+To further underscore the advantages of our CUMDR model, we visualize the textual and visual representations of the top-10 retrieved results in Figure 6 and Figure 7. Each ellipse represents the 50% confidence region for visual representations, with the textual query highlighted by a white ellipse with a 90% confidence region. Ground-truth targets are indicated by green boxes.
+![Result](fig/dist1_00.png)
+![Result](fig/dist2_00.png)
 
 ## Retrieval Examples
 ![Retrieval](fig/retrieval-1.26_00.png)
+![Retrieval](fig/retrievalicfg_00.png)
 
 
 ## Usage
