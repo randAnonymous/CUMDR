@@ -36,7 +36,7 @@ To further explore the significance of our proposed Retrieval-augmented In-conte
 ## More comparisons on CUHK-PEDES
 ![Result](fig/CUHK_00.png)
 
-## More Visulaization of Distribution Representation
+## More Visualization of Distribution Representation
 To further underscore the advantages of our CUMDR model, we visualize the textual and visual representations of the top-10 retrieved results in Figure 6 and Figure 7. Each ellipse represents the 50% confidence region for visual representations, with the textual query highlighted by a white ellipse with a 90% confidence region. Ground-truth targets are indicated by green boxes.
 ![Result](fig/dist1_00.png)
 ![Result](fig/dist2_00.png)
