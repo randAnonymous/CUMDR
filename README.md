@@ -2,7 +2,7 @@
 ## Introduction
 This is the source code of "Cross-modal Uncertainty Modeling with Diffusion-based Refinement for Text-based Person Retrieval". 
 
-The supplementary material is available at '[paper5847_supp.pdf](https://github.com/randAnonymous/CUMDR/blob/main/supplementary/paper5847_supp.pdf)'.
+The supplementary material is available at [supp.pdf](https://github.com/randAnonymous/CUMDR/blob/main/supplementary/supp.pdf).
 
 ## Cross-modal Uncertainty Modeling with Diffusion-based Refinement for Text-based Person Retrieval
 The CUMDR model is structured with three integral components:
